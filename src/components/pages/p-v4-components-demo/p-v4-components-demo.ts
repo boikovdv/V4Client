@@ -13,6 +13,8 @@
 
 import iStaticPage, { component, prop, field, system, hook } from 'components/super/i-static-page/i-static-page';
 import VDOM, * as VDOMAPI from 'components/friends/vdom';
+import 'components/wc/b-label/b-label';
+import 'components/wc/b-label-list/b-label-list';
 
 export * from 'components/super/i-static-page/i-static-page';
 

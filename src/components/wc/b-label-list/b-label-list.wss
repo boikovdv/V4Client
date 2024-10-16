@@ -1,0 +1,7 @@
+- namespace [%fileName%]
+
+- template index()
+  - block body
+    < b-label v-for = item in this.items | labelText = item
+
+

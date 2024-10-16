@@ -12,5 +12,6 @@
 
 - template index() extends ['i-static-page.component'].index
 	- block body
-		< template v-if = stage === 'teleports'
-			< b-bottom-slide
+		< span v-for = i in 1000
+			< b-label :text = i
+

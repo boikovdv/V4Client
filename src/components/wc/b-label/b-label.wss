@@ -1,0 +1,11 @@
+- namespace [%fileName%]
+
+- template index()
+  - block body
+    < span
+      < span
+        < button
+          < span
+            < span
+              {{ this.text }}
+

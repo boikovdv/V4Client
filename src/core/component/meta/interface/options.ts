@@ -231,4 +231,6 @@ export interface ComponentOptions {
 	 * The name of the NPM package in which the component is defined or overridden
 	 */
 	layer?: string;
+
+	type?: 'wc';
 }
